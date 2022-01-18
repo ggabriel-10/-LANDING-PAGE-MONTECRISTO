@@ -112,3 +112,39 @@ body{
     display: block;
     margin: 0 auto;
 }
+footer{
+    color: #FFF2E7; /* Cor das Letras*/
+    text-align: center; /*Centralizar texto */
+    font-style: italic;
+}
+.produtos{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+    
+}
+.produtos-principal{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    cursor: pointer;
+    
+}
+.produto-titulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ECD6C4;
+    padding-left: 10%;
+}
+.produto p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+    padding: 5px;
+
+}
+.produto img {
+    width: 350px;
+    border-radius: 20px;
+}
